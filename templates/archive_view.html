@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ghost Echo Archive</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eaeaea;
+      font-family: 'Courier New', Courier, monospace;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+    .filter-buttons {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .filter-buttons button {
+      background-color: #222;
+      color: #bbb;
+      border: 1px solid #444;
+      margin: 0.25rem;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .filter-buttons button.active {
+      background-color: #bb86fc;
+      color: #111;
+    }
+    .entry {
+      border-left: 4px solid #444;
+      margin: 1rem 0;
+      padding: 1rem;
+      background: #1a1a1a;
+    }
+    .entry .meta {
+      color: #999;
+      font-size: 0.85rem;
+    }
+    .entry .text {
+      margin-top: 0.5rem;
+      font-style: italic;
+      white-space: pre-wrap;
+    }
+    .pulse-label {
+      font-weight: bold;
+      color: #bb86fc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ghost Echo Archive</h1>
+  <div class="filter-buttons" id="pulseFilters"></div>
+  <div id="archive"></div>
+
+  <script>
+    let echoData = {};
+
+    async function fetchArchive() {
+      try {
+        const res = await fetch('http://127.0.0.1:5000/archive');
+        echoData = await res.json();
+        renderArchive();
+        renderPulseButtons();
+      } catch (err) {
+        document.getElementById('archive').innerText = 'Could not fetch archive. Server might be down.';
+      }
+    }
+
+    function renderPulseButtons() {
+      const pulses = Object.keys(echoData);
+      const container = document.getElementById('pulseFilters');
+      pulses.forEach(pulse => {
+        const btn = document.createElement('button');
+        btn.textContent = pulse;
+        btn.onclick = () => {
+          document.querySelectorAll('.filter-buttons button').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderArchive(pulse);
+        };
+        container.appendChild(btn);
+      });
+    }
+
+    function renderArchive(filter = null) {
+      const container = document.getElementById('archive');
+      container.innerHTML = '';
+      for (const pulse in echoData) {
+        if (filter && filter !== pulse) continue;
+        echoData[pulse].forEach(entry => {
+          const div = document.createElement('div');
+          div.className = 'entry';
+          div.innerHTML = `
+            <div class="meta">
+              ${entry.timestamp} | <span class="pulse-label">${pulse}</span> | Echoed: ${entry.echoed}
+            </div>
+            <div class="text">${entry.entry}</div>
+          `;
+          container.appendChild(div);
+        });
+      }
+    }
+
+    fetchArchive();
+  </script>
+</body>
+</html>

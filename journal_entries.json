@@ -1,0 +1,16 @@
+[
+  {
+    "entry": "I feel empty.",
+    "pulse": "STILL",
+    "tone": "ghost",
+    "tag": "grief",
+    "strategy": ["mirror"]
+  },
+  {
+    "entry": "I'm doing better today.",
+    "pulse": "UNKNOWN",
+    "tone": "monk",
+    "tag": "hope",
+    "strategy": ["affirm"]
+  }
+]

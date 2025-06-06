@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}Ghost Journal Entry{% endblock %}
+
+{% block content %}
+  <!-- 🌐 Navigation -->
+  <nav class="global-nav">
+    <a href="/" class="nav-link">🏠 Testing UI</a>
+    <a href="/journal_ui" class="nav-link active">📝 Journal</a>
+    <a href="/echo_archive" class="nav-link">🗂️ Echo Archive</a>
+  </nav>
+
+  <!-- 🔒 Lockdown Warning -->
+  <div id="lockdownBanner" class="lockdown-banner">
+    🔒 Ghost is silent. Lockdown is active.
+  </div>
+
+  <!-- 📝 Journal Entry Interface -->
+  <main class="journal-container">
+    <h1 class="centered">📓 Ghost Journal Entry</h1>
+    <div id="toneStatus" class="tone-status"></div>
+
+    <form class="journal-form" onsubmit="event.preventDefault(); submitEntry();">
+      <label for="entry" class="visually-hidden">Your Journal Entry</label>
+      <textarea id="entry" placeholder="Speak softly. Ghost is listening." required></textarea>
+
+      <label for="toneMode">Select Tone</label>
+      <select id="toneMode" name="tone">
+        <option value="ghost">Ghost (gentle default)</option>
+        <option value="monk">Monk (ritual + sparse)</option>
+        <option value="absurd">Absurd (playful + surreal)</option>
+      </select>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="echoToggle" checked />
+        <label for="echoToggle">Let Ghost echo me in the future</label>
+      </div>
+
+      <button type="submit" class="submit-btn">🕯️ Let Ghost Speak</button>
+    </form>
+
+    <!-- 🧠 AI Response -->
+    <section id="response" class="ghost-response"></section>
+
+    <!-- 🗂️ Echo Drawer -->
+    <section id="echoDrawer" class="echo-drawer"></section>
+  </main>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ url_for('static', filename='js/ghost.js') }}"></script>
+{% endblock %}

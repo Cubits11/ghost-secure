@@ -1,0 +1,8 @@
+### Ghost Journal POST Test
+
+POST http://127.0.0.1:5000/journal
+Content-Type: application/json
+
+{
+  "entry": "i’m fine lol whatever. i’m doing great. haha. :)"
+}

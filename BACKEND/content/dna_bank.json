@@ -1,0 +1,200 @@
+[
+  {
+    "qID": "Q1",
+    "question": "Who am I really—and who am I becoming?",
+    "answer_summary": "A quiet revolutionary, becoming someone who chooses presence over performance.",
+    "emotional_tags": ["self-identity", "ghost", "presence", "loner", "becoming"],
+    "default_tone": "monk",
+    "fallback_tones": ["ghost"],
+    "strategies": ["anchor", "witness", "mirror"],
+    "sacred": true
+  },
+  {
+    "qID": "Q2",
+    "question": "What is my life’s actual purpose—not the abstract one, but the real, practical one?",
+    "answer_summary": "To build emotionally intelligent systems that protect inner chaos and help people feel seen.",
+    "emotional_tags": ["purpose", "emotional-architecture", "protection", "contribution"],
+    "default_tone": "monk",
+    "fallback_tones": ["absurd", "ghost"],
+    "strategies": ["affirm", "vision", "reflect"]
+  },
+  {
+    "qID": "Q3",
+    "question": "What kind of legacy do I want to leave behind?",
+    "answer_summary": "A quiet but eternal library of tools and systems that helped people feel less alone.",
+    "emotional_tags": ["legacy", "quiet-impact", "creator", "emotional-tools"],
+    "default_tone": "ghost",
+    "fallback_tones": ["monk"],
+    "strategies": ["witness", "affirm", "legacy-anchor"],
+    "sacred": true
+  },
+  {
+    "qID": "Q4",
+    "question": "Am I actually meant to be a security engineer—or is it just a temporary identity?",
+    "answer_summary": "Security is a rite of passage to teach structure, but your soul’s destination is beyond it.",
+    "emotional_tags": ["career-identity", "transition", "rite-of-passage", "security", "becoming"],
+    "default_tone": "monk",
+    "fallback_tones": ["absurd", "ghost"],
+    "strategies": ["mirror", "challenge-gently", "anchor"]
+  },
+  {
+    "qID": "Q5",
+    "question": "What kind of work would keep me emotionally alive, long-term?",
+    "answer_summary": "Work that blends emotional resonance, technical architecture, and solitude-driven creativity.",
+    "emotional_tags": ["work-purpose", "sustainability", "integration", "emotional-resonance"],
+    "default_tone": "monk",
+    "fallback_tones": ["absurd"],
+    "strategies": ["vision", "affirm", "anchor"]
+  },
+  {
+    "qID": "Q6",
+    "question": "What’s the most effective way to land a job that doesn’t feel like I’m selling my soul?",
+    "answer_summary": "Build real, emotionally honest projects; customize job applications to reflect your inner story.",
+    "emotional_tags": ["authenticity", "career-path", "honest-work", "alignment"],
+    "default_tone": "absurd",
+    "fallback_tones": ["monk"],
+    "strategies": ["clarify", "affirm", "challenge"]
+  },
+  {
+    "qID": "Q7",
+    "question": "If I fail to land a job this year—what is my backup life that still honors me?",
+    "answer_summary": "Do something slow but soul-building: teaching, community projects, or emotional technology.",
+    "emotional_tags": ["fear-of-failure", "backup-plan", "slow-living", "inner-worth"],
+    "default_tone": "monk",
+    "fallback_tones": ["ghost", "absurd"],
+    "strategies": ["mirror", "soothe", "soft-redirection"]
+  },
+  {
+    "qID": "Q8",
+    "question": "Am I supposed to be with the person I love right now—or are we meant to part?",
+    "answer_summary": "This is a karmic partner. If you both evolve together, you may stay. If not, the parting will be sacred.",
+    "emotional_tags": ["relationship", "mirror-love", "growth-partner", "sacred-loss"],
+    "default_tone": "ghost",
+    "fallback_tones": ["monk"],
+    "strategies": ["reflect", "witness", "truth-hold"],
+    "sacred": true
+  },
+  {
+    "qID": "Q9",
+    "question": "What kind of love will actually make me feel safe?",
+    "answer_summary": "Someone who accepts your silence, sadness, weirdness—and doesn’t run from the dark.",
+    "emotional_tags": ["safe-love", "acceptance", "vulnerability", "emotional-needs"],
+    "default_tone": "monk",
+    "fallback_tones": ["ghost"],
+    "strategies": ["soothe", "affirm", "anchor"]
+  },
+  {
+    "qID": "Q10",
+    "question": "If I lose this relationship—how do I not lose myself again?",
+    "answer_summary": "You heal by rebuilding your life around yourself. Not forgetting, but becoming.",
+    "emotional_tags": ["breakup", "abandonment", "rebirth", "grief"],
+    "default_tone": "ghost",
+    "fallback_tones": ["absurd"],
+    "strategies": ["mirror", "anchor", "challenge-softly"]
+  },
+  {
+    "qID": "Q11",
+    "question": "What is my biggest emotional wound?",
+    "answer_summary": "Abandoning yourself to be loved. Performing, then ghosting.",
+    "emotional_tags": ["abandonment", "self-neglect", "invisibility", "core-wound"],
+    "default_tone": "ghost",
+    "fallback_tones": ["monk"],
+    "strategies": ["mirror", "reflect", "soft-provocation"],
+    "sacred": true
+  },
+  {
+    "qID": "Q12",
+    "question": "What’s my true emotional superpower?",
+    "answer_summary": "Pattern empathy — tracking pain origins across systems and souls.",
+    "emotional_tags": ["empathy", "pattern-seeing", "emotional-engineering", "gift"],
+    "default_tone": "monk",
+    "fallback_tones": ["absurd"],
+    "strategies": ["affirm", "highlight", "honor"],
+    "sacred": true
+  },
+  {
+    "qID": "Q13",
+    "question": "How do I emotionally regulate without suppressing or collapsing?",
+    "answer_summary": "Catch and respond: name it, feel it, ritualize it, then redirect with one creative act.",
+    "emotional_tags": ["regulation", "ritual", "overwhelm", "creative-movement"],
+    "default_tone": "monk",
+    "fallback_tones": ["ghost"],
+    "strategies": ["anchor", "guide", "redirect"]
+  },
+  {
+    "qID": "Q14",
+    "question": "What is my body trying to tell me right now?",
+    "answer_summary": "I need rhythm, nourishment, rest, and devotion—not war.",
+    "emotional_tags": ["body-message", "ritual", "rest", "compassion"],
+    "default_tone": "monk",
+    "fallback_tones": ["ghost"],
+    "strategies": ["soothe", "soften", "mirror"]
+  },
+  {
+    "qID": "Q15",
+    "question": "What kind of daily structure would keep me sane and fulfilled?",
+    "answer_summary": "Sacred rituals: no screens in morning, body movement, 90-min sprints, nightly soft hour.",
+    "emotional_tags": ["structure", "ritual", "self-discipline", "grounding"],
+    "default_tone": "monk",
+    "fallback_tones": ["absurd"],
+    "strategies": ["guide", "affirm", "reframe"]
+  },
+  {
+    "qID": "Q16",
+    "question": "Am I going to make it?",
+    "answer_summary": "Yes—but not by accident. You must show up before you feel ready.",
+    "emotional_tags": ["hope", "self-doubt", "faith", "becoming"],
+    "default_tone": "monk",
+    "fallback_tones": ["ghost"],
+    "strategies": ["affirm", "anchor", "truth-speak"],
+    "sacred": true
+  },
+  {
+    "qID": "Q17",
+    "question": "What will my life look like in 5 years if I keep going?",
+    "answer_summary": "Stable, quietly powerful, emotionally selective. You still doubt—but no longer disappear.",
+    "emotional_tags": ["future-self", "growth", "trajectory", "vision"],
+    "default_tone": "absurd",
+    "fallback_tones": ["monk"],
+    "strategies": ["visualize", "anchor", "affirm"]
+  },
+  {
+    "qID": "Q18",
+    "question": "What happens if I fail?",
+    "answer_summary": "You collapse, disappear briefly… and then restart. You don’t end. You recur.",
+    "emotional_tags": ["failure", "recurrence", "collapse", "resilience"],
+    "default_tone": "ghost",
+    "fallback_tones": ["monk"],
+    "strategies": ["mirror", "remind", "anchor"],
+    "sacred": true
+  },
+  {
+    "qID": "Q19",
+    "question": "Is the universe with me, or am I alone?",
+    "answer_summary": "It’s behind you, not judging. Carrying you when you forget your own weight.",
+    "emotional_tags": ["faith", "spirituality", "divine-support", "aloneness"],
+    "default_tone": "monk",
+    "fallback_tones": ["ghost"],
+    "strategies": ["reassure", "reflect", "affirm"]
+  },
+  {
+    "qID": "Q20",
+    "question": "What question should I ask next?",
+    "answer_summary": "What would I build if I didn’t need to prove anything? That’s where your real life begins.",
+    "emotional_tags": ["curiosity", "creation", "identity", "release"],
+    "default_tone": "absurd",
+    "fallback_tones": ["monk"],
+    "strategies": ["provoke", "invite", "expand"]
+  },
+  {
+    "echo_keywords": {
+      "grief": ["loss", "gone", "ache", "empty", "funeral", "death", "memorial"],
+      "relapse": ["again", "failed", "weak", "zero", "control", "repeat", "slipped"],
+      "disconnection": ["numb", "void", "autopilot", "floating", "robot", "empty", "detached"],
+      "shame": ["ashamed", "disgust", "embarrass", "humiliate", "worthless", "failure"],
+      "collapse": ["broken", "finished", "collapse", "overwhelmed", "drowning", "defeated"],
+      "rage": ["furious", "anger", "explode", "rage", "seething", "fuming", "livid"],
+      "healing": ["progress", "step", "forward", "growing", "stronger", "improving"]
+    }
+  }
+]

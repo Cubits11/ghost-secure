@@ -1,0 +1,292 @@
+/* ===================== */
+/* 🌑 GLOBAL BASE STYLES */
+/* ===================== */
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+/* ================= */
+/* 🌀 RITUAL GATE UI */
+/* ================= */
+#ritualGate {
+  position: fixed;
+  inset: 0;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  text-align: center;
+}
+
+#ritualText {
+  font-size: 1.4rem;
+  opacity: 0;
+  transition: opacity 2s ease-in;
+  color: #ccc;
+}
+
+#beginButton {
+  margin-top: 2rem;
+  opacity: 0;
+  padding: 0.75rem 2rem;
+  background-color: #1a1a1a;
+  color: #bb86fc;
+  border: 1px solid #444;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 2s ease-in-out;
+}
+
+#beginButton:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.fade-in {
+  opacity: 1 !important;
+}
+
+/* ========================= */
+/* 📓 JOURNAL ENTRY SECTION */
+/* ========================= */
+#journalInterface {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  padding: 1rem;
+  resize: none;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+select,
+label,
+input[type="checkbox"] {
+  margin-top: 1rem;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border: 1px solid #444;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+.checkbox-container {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button.submit-btn {
+  margin-top: 1rem;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+button.submit-btn:hover {
+  background-color: #666;
+}
+
+/* ===================== */
+/* 💬 RESPONSE & OUTPUT */
+/* ===================== */
+#response {
+  margin-top: 2rem;
+  max-width: 600px;
+  text-align: left;
+  font-size: 1.1rem;
+  white-space: pre-wrap;
+}
+
+.ghost-line {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.label {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* =================== */
+/* 📁 ARCHIVE & FILTER */
+/* =================== */
+.filter-buttons {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+  background-color: #222;
+  color: #bbb;
+  border: 1px solid #444;
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: inherit;
+  border-radius: 4px;
+}
+
+.filter-buttons button.active {
+  background-color: #bb86fc;
+  color: #111;
+}
+
+.entry {
+  border-left: 4px solid #444;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+.entry .meta {
+  color: #999;
+  font-size: 0.85rem;
+}
+
+.entry .text,
+.entry .quote {
+  margin-top: 0.5rem;
+  font-style: italic;
+  white-space: pre-wrap;
+}
+
+.pulse-label,
+.pulse {
+  font-weight: bold;
+  color: #bb86fc;
+}
+
+/* ============================ */
+/* 🎛 DARK MODE SCROLLBARS     */
+/* ============================ */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+/* ========================== */
+/* 🎨 TONE-BASED GHOST COLORS */
+/* ========================== */
+.ghost-tone-ghost { color: #bb86fc; }
+.ghost-tone-monk  { color: #facc15; }
+.ghost-tone-absurd { color: #00ffff; }
+
+/* ===================== */
+/* 🧠 ECHO DRAWER BLOCKS */
+/* ===================== */
+#echoDrawer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+  max-width: 600px;
+}
+
+.echo-block {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  padding-left: 0.25rem;
+  opacity: 0.85;
+}
+
+.echo-block .label {
+  font-weight: bold;
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.echo-block .line {
+  font-style: italic;
+  color: #aaa;
+}
+
+/* ======================= */
+/* 🔒 LOCKDOWN BANNER ANIM */
+/* ======================= */
+#lockdownBanner {
+  display: none;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #ff6b6b;
+  border: 1px solid #ff6b6b;
+  animation: pulseLock 2s infinite ease-in-out;
+  border-radius: 4px;
+  background-color: rgba(255, 0, 0, 0.05);
+}
+
+@keyframes pulseLock {
+  0%, 100% { box-shadow: 0 0 4px 0 #ff6b6b; }
+  50% { box-shadow: 0 0 8px 4px #ff6b6b; }
+}
+
+/* ================= */
+/* 🧾 TABLE DISPLAY */
+/* ================= */
+table {
+  background-color: #121212;
+  border: 1px solid #333;
+  color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.75rem;
+}
+
+thead {
+  background-color: #222;
+}

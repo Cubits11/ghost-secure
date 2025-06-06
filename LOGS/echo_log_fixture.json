@@ -1,0 +1,688 @@
+{
+  "THROBBING": {
+    "ghost": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "I can't scream anymore. My voice cracked weeks ago.",
+        "first_words": [
+          "I",
+          "can't",
+          "scream",
+          "anymore.",
+          "My",
+          "voice"
+        ],
+        "length": 9,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "ghost",
+          "tag": "grief",
+          "keywords": [
+            "scream",
+            "cracked",
+            "voice"
+          ],
+          "emotion": "exhaustion",
+          "mood_vector": [
+            0.1,
+            0.7,
+            0.8
+          ]
+        }
+      }
+    ],
+    "monk": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "Stillness isn\u2019t peace when the silence shakes.",
+        "first_words": [
+          "Stillness",
+          "isn\u2019t",
+          "peace",
+          "when",
+          "the",
+          "silence"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "monk",
+          "tag": "isolation",
+          "keywords": [
+            "stillness",
+            "peace",
+            "silence"
+          ],
+          "emotion": "quiet despair",
+          "mood_vector": [
+            0.2,
+            0.5,
+            0.6
+          ]
+        }
+      }
+    ],
+    "absurd": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "My lungs filed a resignation letter today.",
+        "first_words": [
+          "My",
+          "lungs",
+          "filed",
+          "a",
+          "resignation",
+          "letter"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "absurd",
+          "tag": "body-dissociation",
+          "keywords": [
+            "lungs",
+            "resignation",
+            "letter"
+          ],
+          "emotion": "absurd fatigue",
+          "mood_vector": [
+            0.3,
+            0.6,
+            0.9
+          ]
+        }
+      }
+    ]
+  },
+  "ECHOING": {
+    "ghost": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "I can't scream anymore. My voice cracked weeks ago.",
+        "first_words": [
+          "I",
+          "can't",
+          "scream",
+          "anymore.",
+          "My",
+          "voice"
+        ],
+        "length": 9,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "ghost",
+          "tag": "grief",
+          "keywords": [
+            "scream",
+            "cracked",
+            "voice"
+          ],
+          "emotion": "exhaustion",
+          "mood_vector": [
+            0.1,
+            0.7,
+            0.8
+          ]
+        }
+      }
+    ],
+    "monk": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "Stillness isn\u2019t peace when the silence shakes.",
+        "first_words": [
+          "Stillness",
+          "isn\u2019t",
+          "peace",
+          "when",
+          "the",
+          "silence"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "monk",
+          "tag": "isolation",
+          "keywords": [
+            "stillness",
+            "peace",
+            "silence"
+          ],
+          "emotion": "quiet despair",
+          "mood_vector": [
+            0.2,
+            0.5,
+            0.6
+          ]
+        }
+      }
+    ],
+    "absurd": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "My lungs filed a resignation letter today.",
+        "first_words": [
+          "My",
+          "lungs",
+          "filed",
+          "a",
+          "resignation",
+          "letter"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "absurd",
+          "tag": "body-dissociation",
+          "keywords": [
+            "lungs",
+            "resignation",
+            "letter"
+          ],
+          "emotion": "absurd fatigue",
+          "mood_vector": [
+            0.3,
+            0.6,
+            0.9
+          ]
+        }
+      }
+    ]
+  },
+  "FRACTURED": {
+    "ghost": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "I can't scream anymore. My voice cracked weeks ago.",
+        "first_words": [
+          "I",
+          "can't",
+          "scream",
+          "anymore.",
+          "My",
+          "voice"
+        ],
+        "length": 9,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "ghost",
+          "tag": "grief",
+          "keywords": [
+            "scream",
+            "cracked",
+            "voice"
+          ],
+          "emotion": "exhaustion",
+          "mood_vector": [
+            0.1,
+            0.7,
+            0.8
+          ]
+        }
+      }
+    ],
+    "monk": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "Stillness isn\u2019t peace when the silence shakes.",
+        "first_words": [
+          "Stillness",
+          "isn\u2019t",
+          "peace",
+          "when",
+          "the",
+          "silence"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "monk",
+          "tag": "isolation",
+          "keywords": [
+            "stillness",
+            "peace",
+            "silence"
+          ],
+          "emotion": "quiet despair",
+          "mood_vector": [
+            0.2,
+            0.5,
+            0.6
+          ]
+        }
+      }
+    ],
+    "absurd": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "My lungs filed a resignation letter today.",
+        "first_words": [
+          "My",
+          "lungs",
+          "filed",
+          "a",
+          "resignation",
+          "letter"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "absurd",
+          "tag": "body-dissociation",
+          "keywords": [
+            "lungs",
+            "resignation",
+            "letter"
+          ],
+          "emotion": "absurd fatigue",
+          "mood_vector": [
+            0.3,
+            0.6,
+            0.9
+          ]
+        }
+      }
+    ]
+  },
+  "PRESSED": {
+    "ghost": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "I can't scream anymore. My voice cracked weeks ago.",
+        "first_words": [
+          "I",
+          "can't",
+          "scream",
+          "anymore.",
+          "My",
+          "voice"
+        ],
+        "length": 9,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "ghost",
+          "tag": "grief",
+          "keywords": [
+            "scream",
+            "cracked",
+            "voice"
+          ],
+          "emotion": "exhaustion",
+          "mood_vector": [
+            0.1,
+            0.7,
+            0.8
+          ]
+        }
+      }
+    ],
+    "monk": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "Stillness isn\u2019t peace when the silence shakes.",
+        "first_words": [
+          "Stillness",
+          "isn\u2019t",
+          "peace",
+          "when",
+          "the",
+          "silence"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "monk",
+          "tag": "isolation",
+          "keywords": [
+            "stillness",
+            "peace",
+            "silence"
+          ],
+          "emotion": "quiet despair",
+          "mood_vector": [
+            0.2,
+            0.5,
+            0.6
+          ]
+        }
+      }
+    ],
+    "absurd": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "My lungs filed a resignation letter today.",
+        "first_words": [
+          "My",
+          "lungs",
+          "filed",
+          "a",
+          "resignation",
+          "letter"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "absurd",
+          "tag": "body-dissociation",
+          "keywords": [
+            "lungs",
+            "resignation",
+            "letter"
+          ],
+          "emotion": "absurd fatigue",
+          "mood_vector": [
+            0.3,
+            0.6,
+            0.9
+          ]
+        }
+      }
+    ]
+  },
+  "STILL": {
+    "ghost": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "I can't scream anymore. My voice cracked weeks ago.",
+        "first_words": [
+          "I",
+          "can't",
+          "scream",
+          "anymore.",
+          "My",
+          "voice"
+        ],
+        "length": 9,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "ghost",
+          "tag": "grief",
+          "keywords": [
+            "scream",
+            "cracked",
+            "voice"
+          ],
+          "emotion": "exhaustion",
+          "mood_vector": [
+            0.1,
+            0.7,
+            0.8
+          ]
+        }
+      }
+    ],
+    "monk": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "Stillness isn\u2019t peace when the silence shakes.",
+        "first_words": [
+          "Stillness",
+          "isn\u2019t",
+          "peace",
+          "when",
+          "the",
+          "silence"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "monk",
+          "tag": "isolation",
+          "keywords": [
+            "stillness",
+            "peace",
+            "silence"
+          ],
+          "emotion": "quiet despair",
+          "mood_vector": [
+            0.2,
+            0.5,
+            0.6
+          ]
+        }
+      }
+    ],
+    "absurd": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "My lungs filed a resignation letter today.",
+        "first_words": [
+          "My",
+          "lungs",
+          "filed",
+          "a",
+          "resignation",
+          "letter"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "absurd",
+          "tag": "body-dissociation",
+          "keywords": [
+            "lungs",
+            "resignation",
+            "letter"
+          ],
+          "emotion": "absurd fatigue",
+          "mood_vector": [
+            0.3,
+            0.6,
+            0.9
+          ]
+        }
+      }
+    ]
+  },
+  "ABSURD": {
+    "ghost": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "I can't scream anymore. My voice cracked weeks ago.",
+        "first_words": [
+          "I",
+          "can't",
+          "scream",
+          "anymore.",
+          "My",
+          "voice"
+        ],
+        "length": 9,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "ghost",
+          "tag": "grief",
+          "keywords": [
+            "scream",
+            "cracked",
+            "voice"
+          ],
+          "emotion": "exhaustion",
+          "mood_vector": [
+            0.1,
+            0.7,
+            0.8
+          ]
+        }
+      }
+    ],
+    "monk": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "Stillness isn\u2019t peace when the silence shakes.",
+        "first_words": [
+          "Stillness",
+          "isn\u2019t",
+          "peace",
+          "when",
+          "the",
+          "silence"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "monk",
+          "tag": "isolation",
+          "keywords": [
+            "stillness",
+            "peace",
+            "silence"
+          ],
+          "emotion": "quiet despair",
+          "mood_vector": [
+            0.2,
+            0.5,
+            0.6
+          ]
+        }
+      }
+    ],
+    "absurd": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "My lungs filed a resignation letter today.",
+        "first_words": [
+          "My",
+          "lungs",
+          "filed",
+          "a",
+          "resignation",
+          "letter"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "absurd",
+          "tag": "body-dissociation",
+          "keywords": [
+            "lungs",
+            "resignation",
+            "letter"
+          ],
+          "emotion": "absurd fatigue",
+          "mood_vector": [
+            0.3,
+            0.6,
+            0.9
+          ]
+        }
+      }
+    ]
+  },
+  "UNKNOWN": {
+    "ghost": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "I can't scream anymore. My voice cracked weeks ago.",
+        "first_words": [
+          "I",
+          "can't",
+          "scream",
+          "anymore.",
+          "My",
+          "voice"
+        ],
+        "length": 9,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "ghost",
+          "tag": "grief",
+          "keywords": [
+            "scream",
+            "cracked",
+            "voice"
+          ],
+          "emotion": "exhaustion",
+          "mood_vector": [
+            0.1,
+            0.7,
+            0.8
+          ]
+        }
+      }
+    ],
+    "monk": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "Stillness isn\u2019t peace when the silence shakes.",
+        "first_words": [
+          "Stillness",
+          "isn\u2019t",
+          "peace",
+          "when",
+          "the",
+          "silence"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "monk",
+          "tag": "isolation",
+          "keywords": [
+            "stillness",
+            "peace",
+            "silence"
+          ],
+          "emotion": "quiet despair",
+          "mood_vector": [
+            0.2,
+            0.5,
+            0.6
+          ]
+        }
+      }
+    ],
+    "absurd": [
+      {
+        "timestamp": "2025-04-22 00:43:36",
+        "entry": "My lungs filed a resignation letter today.",
+        "first_words": [
+          "My",
+          "lungs",
+          "filed",
+          "a",
+          "resignation",
+          "letter"
+        ],
+        "length": 7,
+        "echoed": false,
+        "echo_count": 0,
+        "fingerprint": {
+          "tone": "absurd",
+          "tag": "body-dissociation",
+          "keywords": [
+            "lungs",
+            "resignation",
+            "letter"
+          ],
+          "emotion": "absurd fatigue",
+          "mood_vector": [
+            0.3,
+            0.6,
+            0.9
+          ]
+        }
+      }
+    ]
+  }
+}

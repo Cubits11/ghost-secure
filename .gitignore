@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+venv310/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+
+# Sensitive and logs
+*.key
+*.env
+*.log
+*.jsonl
+*.bak
+secure_echo_log*.jsonl
+audit_log.jsonl
+echo_surveillance.jsonl
+lockdown_status.json
+journal_log.json
+journal_archive.txt
+
+# IDE configs
+.idea/
+.vscode/

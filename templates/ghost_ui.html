@@ -1,0 +1,60 @@
+<!-- ghost_ui.html -->
+<h1>Ghost UI Rendered Successfully</h1>
+{% extends "base.html" %}
+{% block title %}Ghost Secure UI{% endblock %}
+
+{% block content %}
+  <div id="lockdownBanner" class="lockdown-banner">🔒 System is in lockdown.</div>
+
+  <main>
+    <h1>Ghost Secure Testing UI</h1>
+
+    <div class="button-group">
+      <button id="toggleLockBtn">🔁 Toggle Lockdown</button>
+      <button id="pullPromptBtn">🧠 Pull Prompt</button>
+      <button id="statusCheckBtn">📡 Check System Status</button>
+    </div>
+
+    <div id="promptDisplay" class="prompt-box">Prompt will appear here...</div>
+    <div id="statusDisplay"></div>
+  </main>
+{% endblock %}
+
+{% block scripts %}
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    const updateLockdownUI = (state) => {
+      $("#lockdownBanner").toggle(state);
+      $("#toggleLockBtn").text(state ? "🔓 Unlock System" : "🔒 Lock System");
+    };
+
+    $("#toggleLockBtn").click(() => {
+      $.post("/toggle_lockdown", {}, function(data) {
+        updateLockdownUI(data.enabled);
+        alert(data.message);
+      });
+    });
+
+    $("#pullPromptBtn").click(() => {
+      $.get("/get_prompt", function(data) {
+        $("#promptDisplay").text(data.prompt?.question || "No prompt received.");
+      });
+    });
+
+    $("#statusCheckBtn").click(() => {
+      $.get("/status", function(data) {
+        $("#statusDisplay").html(`
+          <p>🔍 Status: ${data.status}</p>
+          <p>🔒 Lockdown: ${data.lockdown}</p>
+          <p>⏱ Timestamp: ${data.timestamp}</p>
+        `);
+        updateLockdownUI(data.lockdown);
+      });
+    });
+
+    // Initial check
+    $(document).ready(() => {
+      $("#statusCheckBtn").click();
+    });
+  </script>
+{% endblock %}
